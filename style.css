@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+
+@keyframes fade {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+html {
+    background: linear-gradient(cyan, midnightblue);
+}
+
+form {
+    margin: auto;
+    padding: 450px 0;
+    width: 500px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+input {
+    display: inline-block;
+}
+
+#dropdown {
+    margin-left: 45px;
+}
+
+#submit {
+    margin-left: 52px;
+}
+
+#final {
+    margin: auto;
+    padding: 380px 0;
+    width: 50px;
+    font-size: 100px;
+    animation-name: fade;
+    animation-duration: 3s;
+}
