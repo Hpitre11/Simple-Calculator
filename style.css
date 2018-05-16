@@ -5,8 +5,8 @@
 }
 
 @keyframes fade {
-    0% {opacity: 0}
-    100% {opacity: 1}
+    0% {opacity: 0; padding: 0px 0}
+    100% {opacity: 1; padding: 380px 0}
 }
 
 html {
@@ -39,9 +39,9 @@ input {
 
 #final {
     margin: auto;
-    padding: 380px 0;
     width: 50px;
     font-size: 100px;
     animation-name: fade;
     animation-duration: 3s;
+    padding: 380px;
 }
